@@ -1,4 +1,4 @@
-FROM node:22.15.0
+FROM node:22-alpine
 RUN apt-get update && \
     apt-get install -y git python3 build-essential && \
     apt-get clean && \
