@@ -16,7 +16,7 @@
     "@whiskeysockets/baileys": "6.7.12",
     "acrcloud": "^1.4.0",
     "axios": "^1.6.2",
-    "bitly": "^8.1.0",
+    "bitly": "7.1.2",
     "browser-id3-writer": "^4.4.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
