@@ -1,15 +1,11 @@
-FROM node:22-alpine
-# Install dependencies using apk (Alpine's package manager)
-RUN apk add --no-cache \
-    git \
+FROM node:22
+RUN apt-get update && apt-get install -y \
+    build-essential \
     python3 \
-    make \
-    g++ \
-    # Additional dependencies if needed (e.g., for node-gyp)
-    && rm -rf /var/cache/apk/*
+    git
 
-RUN git clone https://github.com/c-o-d-e-xx/WhatsBixby.git /Bixby
 WORKDIR /Bixby
+COPY package*.json ./
 RUN npm install
-EXPOSE 8000
+COPY . .
 CMD ["npm", "start"]
