@@ -42,7 +42,7 @@ const {
   const { yta, ytv, ytdlDl, ytdlget, formatYtdata } = require("../lib/functions");
   const util = require("util");
   const config = require("../config");
-  const { delay } = require("@whiskeysockets/baileys");
+  const { delay } = require("baileys");
   const { exec } = require('child_process');
 
   

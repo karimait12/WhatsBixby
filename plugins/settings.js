@@ -1,6 +1,6 @@
 const { Bixby, isPrivate, isAdmin } = require("../lib");
 const config = require("../config");
-const { delay } = require("@whiskeysockets/baileys");
+const { delay } = require("baileys");
 const {
    getReactStatus,
    setReactStatus,

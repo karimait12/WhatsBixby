@@ -11,7 +11,7 @@ const {
 } = require("../lib/");
 const fetch = require('node-fetch')
 
-const { downloadMediaMessage } = require("@whiskeysockets/baileys");
+const { downloadMediaMessage } = require("baileys");
 
 Bixby(
   {
