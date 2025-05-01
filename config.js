@@ -4,7 +4,7 @@ const toBool = (x) => x === "true";
 
 module.exports = {
   MONGODB_URI: process.env.MONGODB_URI || "",
-  BASE_URL: process.env.BASE_URL || "https://dxmods.xyz/",
+  BASE_URL: process.env.BASE_URL || "https://codexnet.xyz/",
   API_KEY: process.env.API_KEY || "", 
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
