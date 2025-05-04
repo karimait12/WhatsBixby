@@ -5,7 +5,7 @@ const toBool = (x) => x === "true";
 module.exports = {
   MONGODB_URI: process.env.MONGODB_URI || "",
   BASE_URL: process.env.BASE_URL || "https://codexnet.xyz/",
-  API_KEY: process.env.API_KEY || "",
+  API_KEY: process.env.API_KEY || "L5Ce7iyZng",
   MUSIX_URL: process.env.MUSIX_URL || "https://api.musixmatch.com/ws/1.1/",
   MUSIX_KEY: process.env.MUSIX_KEY || "e6d0cd0023b7ee562a97be33d3c5f524",
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
